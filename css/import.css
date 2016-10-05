@@ -1,0 +1,11 @@
+@charset "Shift_JIS";
+/* CSS Document */
+
+/*基本*/
+@import "base.css";
+
+/*コンテンツページ*/
+@import "contents.css";
+
+/*print*/
+@import "print.css";

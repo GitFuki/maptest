@@ -1,0 +1,1900 @@
+@charset "UTF-8";
+
+/* 2階層目以降の共通項目 */
+#contents .pgTop {
+	font-size:10px;
+	line-height:14px;
+	text-align:right;
+	clear:both;
+	padding:15px 0;
+}
+
+#contents .pankuzu {
+	font-size:10px;
+	line-height:14px;
+	font-weight:bold;
+	text-align:left;
+	clear:both;
+	padding-bottom:10px;
+}
+#contents .pankuzu ul li {
+	display:inline;
+}
+#contents .pankuzu ul li a {
+	background:url(../img/common/pankuzuIcon.png) no-repeat right center;
+	padding-right:14px;
+	font-weight:normal;
+}
+/*       ■■■■■■■■■ 2011/08/1追加  岩崎       */
+
+#contents .pankuzuA {
+	font-size:10px;
+	line-height:14px;
+	font-weight:bold;
+	text-align:left;
+	clear:both;
+	padding-bottom:10px;
+	padding-top:10px;
+}
+#contents .pankuzuA a {
+	background:url(../img/common/pankuzuIcon.png) no-repeat right center;
+	padding-right:14px;
+	font-weight:normal;
+}
+
+
+/*   ■■■■■■■■■ 追加ここまで      */
+
+
+#contents #contentsLeft {
+	width:730px;
+	float:left;
+	padding-left:1px;
+	overflow:hidden;
+	zoom:1;
+}
+#contents #contentsRight {
+	width:210px;
+	float:right;
+	padding-right:1px;
+	overflow:hidden;
+	zoom:1;
+}
+/* ■■■2011/08/1　企業団体情報で使う　岩崎   */
+
+#contents #contentsRightA {
+ width:210px;
+ float:right;
+ padding-right:1px;
+ overflow:hidden;
+ zoom:1;
+ 
+ padding-top:0;
+}
+
+
+/* 広告部分 */
+#contents .googleBox {
+	width:725px;
+	height:100px;
+	font-size:12px;
+	line-height:15px;
+	text-align:left;
+	margin:0 auto;
+	clear:both;
+}
+#contents .tweetBox {
+	width:725px;
+	margin:0 auto 20px auto;
+	clear:both;
+	overflow:hidden;
+	zoom:1;
+}
+#contents .tweetBox .yahoobook {
+	width:125px;
+	height:17px;
+	padding:2px 0 3px;
+	float:left;
+}
+#contents .tweetBox .iconBox {
+	width:500px;
+	float:right;
+}
+#contents .tweetBox .facebook {
+	width:74px;
+	float:right;
+	margin-right:5px;
+}
+#contents .tweetBox .twitter {
+	float:right;
+}
+#contents .tweetBox .mixi {
+	float:right;
+	margin-left:5px;
+}
+#contents .tweetBox .googleP{
+	float:right;
+	margin-left:5px;
+	width:40px;
+}
+
+/*     ■■■■■■■■　2011-08-11追加　岩崎　  企業・団体情報で使う   */
+
+#contents .tweetBoxA {
+	width:725px;
+	margin:0 auto 0 auto;
+	clear:both;
+	overflow:hidden;
+	zoom:1;
+}
+#contents .tweetBoxA .yahoobook {
+
+	width:155px;
+	height:27px;
+	padding:2px 0 3px;
+	float:left;
+
+}
+#contents .tweetBoxA .iconBoxA {
+	width:500px;
+	float:right;
+}
+#contents .tweetBoxA .facebook {
+    width:74px;
+    float:right;
+    margin-right:5px;
+    
+}
+#contents .tweetBoxA .twitter {
+	float:right;
+}
+#contents .tweetBoxA .mixi {
+	float:right;
+	margin-left:5px;
+}
+#contents .tweetBoxA .google {
+    float:right;
+    margin-left:5px;
+    width:40px;
+    
+}
+
+/* ■■■■■■■■■    追加ここまで      */
+
+
+#contents .amazonBox {
+	width:950px;
+	height:200px;
+	font-size:12px;
+	line-height:15px;
+	text-align:left;
+	margin:0 auto;
+	clear:both;
+}
+
+#contents #contentsRight ul {
+	list-style:none; margin:0; padding:0; padding-bottom:5px;
+}
+#contents #contentsRight ul li.rss {
+	height:18px;
+	padding-bottom:2px;
+}
+#contents #contentsRight ul li.yahoo {
+	width:91px;
+	height:17px;
+	float:left;
+}
+#contents #contentsRight ul li.rssgoogle {
+	width:104px;
+	height:17px;
+	float:right;
+}
+#contents #contentsRight .banner01 {
+	width:210px;
+	height:120px;
+	background:url(../img/common/banner/banner01-on.png) no-repeat top;
+	margin-bottom:5px;
+}
+#contents #contentsRight .banner01 a {
+	width:210px;
+	height:120px;
+	display:block;
+	text-indent:-5000px;
+	overflow:hidden;
+	background:url(../img/common/banner/banner01.png) no-repeat top;
+}
+#contents #contentsRight .banner01 a:hover {
+	background:url(../img/common/banner/banner01-on.png) no-repeat top;
+}
+
+#contents #contentsRight .flow {
+	width:210px;
+	height:310px;
+	padding-bottom:10px;
+}
+#contents #contentsRight .googleR {
+	width:200px;
+	margin:0 auto 10px auto;
+}
+
+
+/*  ■■■■   企業団体情報で使う  2011/07/20　岩崎　　　*/
+
+#contents #contentsRightA ul {
+ padding-bottom:5px;
+ padding-top:0;
+}
+#contents #contentsRightA ul li.rss {
+	height:18px;
+	padding-bottom:2px;
+}
+#contents #contentsRightA ul li.yahoo {
+ /*width:91px;
+ */
+width:85px
+	height:14px;
+ float:left;
+ margin-right:0;
+}
+#contents #contentsRightA ul li.rssgoogle {
+ 
+width:100px;
+ height:19px;
+ float:right;
+ margin-right:5px;
+ margin-left:0;
+}
+#contents #contentsRightA .banner01 {
+	width:210px;
+	height:120px;
+	background:url(img/common/banner/banner01-on.png) no-repeat top;
+	margin-bottom:5px;
+}
+#contents #contentsRightA .banner01 a {
+	width:210px;
+	height:120px;
+	display:block;
+	text-indent:-5000px;
+	overflow:hidden;
+	background:url(../img/common/banner/banner01.png) no-repeat top;
+}
+#contents #contentsRightA .banner01 a:hover {
+	background:url(../img/common/banner/banner01-on.png) no-repeat top;
+}
+
+#contents #contentsRightA .flow {
+	width:210px;
+	height:310px;
+	padding-bottom:10px;
+}
+#contents #contentsRightA .googleR {
+	width:200px;
+	margin:0 auto 10px auto;
+}
+
+/*  ■■■■ ■■■■■■■■■　ここまで       */
+
+
+
+#contents .adBox {
+    width:962px;
+    margin:0 auto 5px auto;
+    clear:both;
+    overflow:hidden;
+    zoom:1;
+    
+}
+#contents .adBox .googleAdSence {
+	width:728px;
+	height:15px;
+	padding:22px 0;
+	float:left;
+}
+#contents .adBox ul {
+	width:700px;
+	font-size:12px;
+	line-height:60px;
+	text-align:center;
+	float:left;
+}
+#contents .adBox ul li {
+	width:140px;
+	float:left;
+}
+#contents .adBox .amazonI {
+	width:234px;
+	float:right;
+}
+#contents .adBox .adBoxInner {
+    width:254px;
+    height:22px;
+    text-align:right;
+    float:right;
+    padding:19px 0px;
+    
+}
+#contents .adBox .adBoxInner p {
+	width:px;
+	display:block;
+	float:right;
+	margin-left:5px;
+}
+#contents .adBox .adBoxInner p.facebook {
+	width:80px;
+	float:right;
+	margin-left:5px;
+}
+
+/*    ★★★TOP真ん中の広告欄　 ★★★    */
+#contents .adBoxA {
+    width:962px;
+    margin:0 auto 5px auto;
+    clear:both;
+    overflow:hidden;
+    zoom:1;
+    
+}
+
+#contents .adBoxA ul {
+    width:650px;
+    font-size:12px;
+    line-height:60px;
+    text-align:center;
+    float:left;
+    
+}
+#contents .adBoxA ul li {
+	width:130px;
+	float:left;
+}
+
+#contents .adBoxA .adBoxInnerA {
+    width:304px;
+    height:22px;
+    text-align:left;
+    
+	float:left;
+    padding:19px 0px;
+    
+}
+#contents .adBoxA .adBoxInnerA p {
+    width:px;
+    display:block;
+    float:right;
+    margin-left:5px;
+    
+}
+#contents .adBoxA .adBoxInnerA p.facebook {
+    width:75px;
+    float:right;
+    margin-left:5px;
+   
+}
+
+#contents .adBoxA .adBoxInnerA p.google {
+    width:40px;
+    float:right;
+    margin-left:10px;
+    
+}
+#contents .adBoxA .adBoxInnerA p.twitter {
+    width:85px;
+    float:right;
+    
+}
+
+/*    ★★★TOP真ん中の広告欄ここまで　 ★★★    */
+/*----------------------------------
+
+index
+
+------------------------------------*/
+
+#index #contents #contentsLeft #mainBox {
+	width:728px;
+	/*height:438px;*/
+	font-size:14px;
+	line-height:20px;
+	border:1px solid #D4D4D4;
+	background:#fff;
+	padding-bottom:8px;
+}
+#index #contents #contentsLeft #mainBox .main {
+	width:728px;
+	height:234px;
+}
+/*
+#index #contents #contentsLeft ul {
+	width:700px;
+	height:190px;
+	background:url(../img/index/mainSBg.png) no-repeat;
+	margin:0 auto;
+}
+#index #contents #contentsLeft ul li {
+	height:95px;
+	float:left;
+}
+#index #contents #contentsLeft ul li.s01 {
+	width:700px;
+}
+#index #contents #contentsLeft ul li.s02 {
+	width:348px;
+}
+#index #contents #contentsLeft ul li.s03 {
+	width:352px;
+}
+#index #contents #contentsLeft ul li.s03 dd .sslmark {
+	float:right;
+	margin:30px 0 0 4px;
+}
+*/
+#index #contents #contentsLeft ul li dl dt {
+	width:100px;
+	float:left;
+	padding-right:0px;
+}
+#index #contents #contentsLeft ul li dl dd {
+	padding:20px 8px 15px 0;
+}
+#index #contents #contentsLeft ul li.s03 dl dd {
+	padding-top:10px;
+}
+#index #contents #contentsLeft ul li dl dd span {
+	color:#339900;
+	font-weight:bold;
+}
+#index #contents #contentsLeft ul li dl dd u {
+	font-size:10px;
+	text-decoration:none;
+}
+
+#index #contents ul li dl dt a {
+	text-decoration:none;
+}
+#index #contents .PRBox ,
+#index #contents .BPBox {
+	font-size:12px;
+	line-height:18px;
+	text-align:left;
+	clear:both;
+	border:1px solid #D4D4D4;
+	background:#fff;
+	margin:0 auto;
+	overflow:hidden;
+	zoom:1;
+}
+#index #contents .BPBox {
+	width:958px;
+	background:url(../img/common/bg/bg01.png) repeat-y right top #fff;
+}
+
+#index #contents .BPBox .leftBox {
+	width:690px;
+	float:left;
+	padding:19px;
+}
+
+#index #contents .BPBox .leftBox .titleBox {
+	width:684px;
+	height:34px;
+	border:1px solid #DCDCDC;
+	padding:2px;
+	margin:0px auto 14px auto;
+}
+#index #contents .BPBox .leftBox .titleBox h2 {
+	width:400px;
+	height:34px;
+	float:left;
+}
+#index #contents .PRBox .titleBox .btn ,
+#index #contents .BPBox .leftBox .titleBox .btn {
+	width:127px;
+	height:34px;
+	background:url(../img/common/btn/moreBtn-on.png) no-repeat top;
+	float:right;
+}
+#index #contents .PRBox .titleBox .btn a ,
+#index #contents .BPBox .leftBox .titleBox .btn a {
+	width:127px;
+	height:34px;
+	background:url(../img/common/btn/moreBtn.png) no-repeat top;
+	text-indent:-5000px;
+	display:block;
+	overflow:hidden;
+}
+#index #contents .PRBox .titleBox .btn a:hover ,
+#index #contents .BPBox .leftBox .titleBox .btn a:hover {
+	background:url(../img/common/btn/moreBtn-on.png) no-repeat top;
+}
+
+#index #contents .BPBox .leftBox ul {
+	width:690px;
+	margin:0px auto;
+}
+#index #contents .BPBox .leftBox ul li {
+	background:url(../img/common/bg/line01.png) repeat-x bottom;
+	padding:5px 0;
+}
+#index #contents .BPBox .leftBox ul li .icon {
+	width:50px;
+	height:50px;
+	float:left;
+}
+#index #contents .BPBox .leftBox ul li .dateBox {
+	width:68px;
+	height:50px;
+	font-size:10px;
+	line-height:16px;
+	text-align:center;
+	color:#000;
+	font-weight:bold;
+	float:left;
+	background:url(../img/common/listIcon/dateBg.png) no-repeat;
+}
+
+#index #contents .BPBox .leftBox ul li .dateBox_pr {
+
+	width:68px;
+
+	height:50px;
+
+	font-size:10px;
+
+	line-height:16px;
+
+	text-align:center;
+
+	color:#000;
+
+	font-weight:bold;
+
+	float:left;
+
+	background:url(../img/common/listIcon/dateBg_pr.png) no-repeat;
+
+}
+
+#index #contents .BPBox .leftBox ul li .dateBox .new {
+	width:30px;
+	height:25px;
+	float:left;
+}
+#index #contents .BPBox .leftBox ul li .dateBox .year {
+	width:30px;
+	height:18px;
+	float:left;
+	padding-top:7px;
+}
+#index #contents .BPBox .leftBox ul li .dateBox .month {
+	width:20px;
+	height:25px;
+	float:left;
+	clear:both;
+	padding-left:18px;
+}
+#index #contents .BPBox .leftBox ul li .dateBox .day {
+	width:20px;
+	height:20px;
+	float:left;
+	padding-top:5px;
+}
+
+#index #contents .BPBox .leftBox ul li .dateBox_pr .new {
+
+	width:30px;
+
+	height:25px;
+
+	float:left;
+
+}
+
+#index #contents .BPBox .leftBox ul li dl {
+	width:480px;
+	float:left;
+	padding:0 10px 0 2px;
+}
+#index #contents .BPBox .leftBox ul li dl dt {
+	font-size:12px;
+	line-height:16px;
+	font-weight:bold;
+	padding:6px 0 8px;
+}
+#index #contents .BPBox .leftBox ul li dl dd {
+	font-size:10px;
+	line-height:16px;
+}
+#index #contents .PRBox ul li .moreBtn ,
+#index #contents .BPBox .leftBox ul li dl dd .moreBtn {
+ width:60px;
+ height:16px;
+ background:url(../img/common/btn/moreBtnS-on.png) no-repeat;
+ float:right;
+ 
+}
+#index #contents .PRBox ul li .moreBtn a ,
+#index #contents .BPBox .leftBox ul li dl dd .moreBtn a {
+	width:60px;
+	height:16px;
+	display:block;
+	text-indent:-5000px;
+	background:url(../img/common/btn/moreBtnS.png) no-repeat;
+	overflow:hidden;
+}
+#index #contents .PRBox ul li .moreBtn a:hover ,
+#index #contents .BPBox .leftBox ul li dl dd .moreBtn a:hover {
+	background:url(../img/common/btn/moreBtnS-on.png) no-repeat;
+}
+#index #contents .BPBox .leftBox ul li .countBox {
+	width:79px;
+	font-size:12px;
+	line-height:14px;
+	text-align:center;
+	font-weight:bold;
+	color:#FFB200;
+	float:left;
+	border-left:1px solid #DCDCDC;
+}
+#index #contents .BPBox .leftBox ul li .countBox p {
+	height:14px;
+	padding:0 30px 3px 0;
+}
+#index #contents .BPBox .leftBox ul li .countBox .area {
+	background:url(../img/common/listIcon/areaIcon.png) no-repeat top right;
+}
+#index #contents .BPBox .leftBox ul li .countBox .look {
+	background:url(../img/common/listIcon/looksIcon.png) no-repeat top right;
+}
+#index #contents .BPBox .leftBox ul li .countBox .mail {
+	background:url(../img/common/listIcon/mailIcon.png) no-repeat top right;
+	padding-bottom:0px;
+}
+
+#index #contents .BPBox .rightBox {
+	width:229px;
+	float:right;
+	padding-left:1px;
+}
+#index #contents .BPBox .rightBox h3 {
+	width:229px;
+	height:25px;
+	padding-bottom:8px;
+}
+#index #contents .BPBox .rightBox h4 {
+	height:22px;
+}
+#index #contents .BPBox .rightBox .areaBox {
+	width:209px;
+	height:192px;
+	margin:0 auto;
+	padding-bottom:15px;
+}
+#index #contents .BPBox .rightBox .typeBox {
+	width:212px;
+	text-align:left;
+	padding-left:3px;
+	margin:0 auto;
+}
+#index #contents .BPBox .rightBox .typeBox ul {
+	padding-bottom:10px;
+}
+#index #contents .BPBox .rightBox .typeBox ul li {
+	width:50px;
+	height:50px;
+	float:left;
+	padding-right:3px;
+	padding-bottom:3px;
+}
+#index #contents .BPBox .rightBox .btn {
+	width:209px;
+	height:24px;
+	background:url(../img/index/searchEntryBtn-on.png) no-repeat top;
+	margin:0 auto 10px;
+	clear:both;
+}
+#index #contents .BPBox .rightBox .btn a {
+	width:209px;
+	height:24px;
+	background:url(../img/index/searchEntryBtn.png) no-repeat top;
+	display:block;
+	text-indent:-5000px;
+	overflow:hidden;
+}
+#index #contents .BPBox .rightBox .btn a:hover {
+	background:url(../img/index/searchEntryBtn-on.png) no-repeat top;
+}
+
+#index #contents .PRBox {
+	width:690px;/* 20120118 t.s modify */
+	padding:26px 19px;
+	float:left;/* 20120118 t.s modify */
+}
+#index #contents .PRBox .titleBox {
+	width:684px;/* 20120118 t.s modify */
+	height:34px;
+	border:1px solid #DCDCDC;
+	padding:2px;
+	margin:0px auto 14px auto;
+	overflow:hidden;
+	zoom:1;
+}
+#index #contents .PRBox .titleBox .com {
+	width:110px;
+	height:23px;
+	position:absolute;
+	margin:-23px 0 0 -5px;
+}
+* html #index #contents .PRBox .titleBox .com {
+	margin:-23px 0 0 -575px;
+}
+*:first-child+html #index #contents .PRBox .titleBox .com {
+	margin:-23px 0 0 -575px;
+}
+#index #contents .PRBox .titleBox h2 {
+	width:570px;
+	height:34px;
+	float:left;
+}
+#index #contents .PRBox ul {
+ width:920px;
+ margin:0px auto;
+ 
+ 
+}
+#index #contents .PRBox ul li {
+	font-size:12px;
+	line-height:18px;
+	background:url(../img/common/bg/line01.png) repeat-x bottom;
+	padding:5px 0;
+}
+#index #contents .PRBox ul li dl {
+ /*width:860px;
+ */
+float:left;
+ width:860px;
+ 
+}
+#index #contents .PRBox ul li dl dt {
+	width:280px;/* 20120118 t.s add start */
+	font-weight:bold;
+	float:left;
+}
+
+#index #contents .PRBox ul li dl dd {
+ /*width:400px;
+ */
+	width:400px;
+	float:left;
+}
+#index #contents .PRBox ul li dl dd .old {
+	width:100px;
+	font-size:10px;
+	text-align:center;
+	float:left;
+	padding-left:18px;
+}
+#index #contents .PRBox ul li dl dd .sex1 {
+	background:url(../img/common/listIcon/mIcon.png) no-repeat left;
+}
+#index #contents .PRBox ul li dl dd .sex2 {
+	background:url(../img/common/listIcon/fIcon.png) no-repeat left;
+}
+#index #contents .PRBox ul li dl dd .background {
+	/* width:70px; */
+width:85px;
+	text-align:left;
+	float:left;
+	/* padding-left:28px; */
+	padding-left:38px;
+	background:url(../img/common/listIcon/sIcon.png) no-repeat left;
+}
+#index #contents .PRBox ul li dl dd .area {
+ /*width:50px;
+ */
+width:60px;
+ text-align:left;
+ float:left;
+ background:url(../img/common/listIcon/areaIcon02.png) no-repeat left;
+ /*padding-left:10px;
+ */
+
+ padding-left:18px;
+}
+
+#index #contents .PRBox ul li dl dd .look {
+	width:35px;
+	text-align:center;
+	float:left;
+	background:url(../img/common/listIcon/looksIcon02.png) no-repeat left;
+	padding-left:36px;
+}
+#index #contents .PRBox ul li dl dd .mail {
+	width:35px;
+	text-align:center;
+	float:left;
+	background:url(../img/common/listIcon/mailIcon02.png) no-repeat left;
+	padding-left:18px;
+}
+
+
+/*----------------------------------
+
+content
+
+------------------------------------*/
+
+#content #contents h2 {
+	width:728px;
+	height:58px;
+	text-align:left;
+	border:1px solid #D4D4D4;
+	background:#fff;
+}
+#content #contents h3 {
+	width:918px;
+	height:38px;
+	text-align:left;
+	border:1px solid #D4D4D4;
+	background:#fff;
+	margin:0 auto 10px auto;
+	clear:both;
+}
+#content #contents #contentsLeft h3 {
+	width:688px;
+}
+#content #contents .contentsInner {
+	font-size:12px;
+	line-height:18px;
+	text-align:left;
+	clear:both;
+	border:1px solid #D4D4D4;
+	background:#fff;
+	overflow:hidden;
+	zoom:1;
+}
+#content #contents .btnBox {
+	text-align:center;
+	background:url(../img/common/bg/bg02.png);
+	border:1px solid #D4D4D4;
+	padding:15px;
+	margin-bottom:10px;
+}
+#content #contents .btnBox input {
+	margin:0 5px;
+}
+
+#content .formBox {
+	padding:18px;
+	margin-bottom:10px;
+}
+#content .formBox .error {
+	line-height:20px;
+	color:#900;
+	font-weight:bold;
+}
+#content .formBox .text {
+}
+#content .formBox .text p {
+	padding-bottom:12px;
+}
+
+#content .formBox dl {
+	background:url(../img/common/bg/line01.png) repeat-x bottom;
+	clear:both;
+	padding:10px 0;
+}
+#content .formBox dl dt {
+	width:115px;
+	color:#FF9900;
+	font-weight:bold;
+	float:left;
+}
+#content .formBox dl dt span {
+	font-size:9px;
+	color:#333;
+	font-weight:normal;
+}
+#content .formBox dl dt u {
+	font-size:10px;
+	color:#333;
+	font-weight:normal;
+	text-decoration:none;
+}
+#content .formBox dl dd {
+	width:565px;
+	float:right;
+}
+#content .formBox dl dd select {
+	font-size:12px;
+	white-space:0;
+	letter-spacing:0;
+}
+#content .formBox dl dd span {
+	font-size:10px;
+}
+#content .formBox dl dd u {
+	font-size:10px;
+	text-decoration:none;
+	font-weight:bold;
+}
+#content .formBox dl dd p {
+	padding-bottom:8px;
+}
+#content .formBox dl dd span.attention {
+	color:#900;
+}
+#content .formBox .leftBox {
+	width:340px;
+	float:left;
+}
+#content .formBox .rightBox {
+	width:340px;
+	float:right;
+}
+#content .formBox .leftBox dl dd ,
+#content .formBox .rightBox dl dd {
+	width:215px;
+}
+#content .formBox .leftBox dl.sH dd ,
+#content .formBox .rightBox dl.sH dd {
+	height:175px;
+}
+
+#content .formBox dl dd ol li {
+	list-style:outside decimal;
+	margin-left:30px;
+	padding-bottom:8px;
+	overflow:visible;
+	zoom:normal;
+}
+#content .formBox dl dd ol li span {
+	padding-right:5px;
+}
+#content .formBox .attention {
+	font-size:11px;
+	line-height:14px;
+	color:#900;
+	padding:10px 0;
+	clear:both;
+}
+#content .formBox dl dd textarea {
+	width:550px;
+	height:140px;
+}
+
+
+/*--------------
+registCompany
+--------------*/
+#content .registCompany .formBox dl dd ul {
+	width:560px;
+	margin:0 auto;
+}
+#content .registCompany .formBox dl dd ul li {
+	width:260px;
+	padding:0px 10px;
+	float:left;
+}
+#content .registCompany .formBox dl dd ul li a {
+	width:90px;
+	height:12px;
+	background:url(../img/articleC/deletBtn.png) no-repeat;
+	display:block;
+	text-indent:-3000px;
+	overflow:hidden;
+}
+#content .registCompany .formBox dl.keyword dd input {
+	float:left;
+	margin-right:10px;
+	margin-bottom:5px;
+}
+
+/*--------------
+registCandi
+--------------*/
+
+
+/*--------------
+search
+--------------*/
+
+.search .areaSearchBox {
+	padding:18px;
+	margin-bottom:10px;
+}
+.search .areaSearchBox .areaMapBox {
+	width:388px;
+	height:311px;
+	background:url(../img/search/mapBg.png) no-repeat 0% 0%;
+	overflow:hidden;
+	zoom:1;
+	margin:0 auto;
+}
+.search .areaSearchBox .areaMapBox ul li {
+	height:18px;
+	display:block;
+	text-align:center;
+	float:left;
+}
+.search .areaSearchBox .areaMapBox ul li input[type="checkbox"] {
+	margin-top:3px;
+}
+.search .areaSearchBox .areaMapBox ul li.foreign {
+	width:102px;
+	padding:14px 0 0 5px;
+}
+.search .areaSearchBox .areaMapBox ul li.hokkaido {
+	width:102px;
+	padding:14px 0 0 179px;
+}
+.search .areaSearchBox .areaMapBox ul li.all {
+	width:92px;
+	padding:72px 0 0 107px;
+	clear:both;
+}
+.search .areaSearchBox .areaMapBox ul li.tohoku {
+	width:81px;
+	padding:72px 0 44px 105px;
+}
+.search .areaSearchBox .areaMapBox ul li.okinawa {
+	width:38px;
+	padding:10px 0 0 52px;
+	clear:both;
+}
+.search .areaSearchBox .areaMapBox ul li.shinetsu {
+	width:18px;
+	padding:0px 100px 36px 176px;
+}
+.search .areaSearchBox .areaMapBox ul li.kyusyu {
+	width:38px;
+	padding:22px 0 0 19px;
+	clear:both;
+}
+.search .areaSearchBox .areaMapBox ul li.chu-shi {
+	width:28px;
+	height:72px;
+	padding:0px 40px 0 38px;
+}
+.search .areaSearchBox .areaMapBox ul li.chu-shi .chugoku {
+	height:18px;
+	padding-bottom:30px;
+}
+.search .areaSearchBox .areaMapBox ul li.chu-shi .shikoku {
+	height:18px;
+}
+.search .areaSearchBox .areaMapBox ul li.kansai {
+	width:38px;
+	padding:22px 28px 0 0px;
+}
+.search .areaSearchBox .areaMapBox ul li.hoku-to {
+	width:18px;
+	height:67px;
+	padding:12px 77px 0 0px;
+}
+.search .areaSearchBox .areaMapBox ul li.hoku-to .hokuriku {
+	height:18px;
+	padding-bottom:25px;
+}
+.search .areaSearchBox .areaMapBox ul li.kanto {
+	width:36px;
+	padding:10px 0 0 0px;
+}
+.search .areaSearchBox .areaListBox {
+	width:260px;
+	float:right;
+}
+.search .areaSearchBox .areaListBox ul li {
+	width:130px;
+	float:left;
+	padding:12px 0;
+}
+.search .areaSearchBox .areaListBox ul li input {
+	margin-right:5px;
+}
+
+.search .typeSearchBox {
+	padding:18px;
+	margin-bottom:10px;
+	overflow:hidden;
+	zoom:1;
+}
+
+.search .typeSearchBox ul {
+	background:url(../img/search/typeBg.png);
+}
+.search .typeSearchBox ul li {
+	width:138px;
+	height:35px;
+	line-height:16px;
+	text-align:center;
+	float:left;
+	padding:35px 0 5px;
+	margin-top:5px;
+}
+
+.search .typeSearchBox ul li.cid1 {
+	background:url(../img/common/typeIcon/c1IconF.png) no-repeat 50% 0%;
+} 
+.search .typeSearchBox ul li.cid2 {
+	background:url(../img/common/typeIcon/c2IconF.png) no-repeat 50% 0%;
+} 
+.search .typeSearchBox ul li.cid3 {
+	background:url(../img/common/typeIcon/c3IconF.png) no-repeat 50% 0%;
+} 
+.search .typeSearchBox ul li.cid4 {
+	background:url(../img/common/typeIcon/c4IconF.png) no-repeat 50% 0%;
+} 
+.search .typeSearchBox ul li.cid5 {
+	background:url(../img/common/typeIcon/c5IconF.png) no-repeat 50% 0%;
+} 
+.search .typeSearchBox ul li.cid6 {
+	background:url(../img/common/typeIcon/c6IconF.png) no-repeat 50% 0%;
+} 
+.search .typeSearchBox ul li.cid7 {
+	background:url(../img/common/typeIcon/c7IconF.png) no-repeat 50% 0%;
+} 
+.search .typeSearchBox ul li.cid8 {
+	background:url(../img/common/typeIcon/c8IconF.png) no-repeat 50% 0%;
+} 
+.search .typeSearchBox ul li.cid9 {
+	background:url(../img/common/typeIcon/c9IconF.png) no-repeat 50% 0%;
+} 
+.search .typeSearchBox ul li.cid10 {
+	background:url(../img/common/typeIcon/c10IconF.png) no-repeat 50% 0%;
+} 
+.search .typeSearchBox ul li.cid11 {
+	background:url(../img/common/typeIcon/c11IconF.png) no-repeat 50% 0%;
+} 
+.search .typeSearchBox ul li.cid12 {
+	background:url(../img/common/typeIcon/c12IconF.png) no-repeat 50% 0%;
+} 
+.search .typeSearchBox ul li.cid13 {
+	background:url(../img/common/typeIcon/c13IconF.png) no-repeat 50% 0%;
+} 
+.search .typeSearchBox ul li.cid14 {
+	background:url(../img/common/typeIcon/c14IconF.png) no-repeat 50% 0%;
+} 
+.search .typeSearchBox ul li.cid15 {
+	background:url(../img/common/typeIcon/c15IconF.png) no-repeat 50% 0%;
+} 
+.search .typeSearchBox ul li.cid16 {
+	background:url(../img/common/typeIcon/c16IconF.png) no-repeat 50% 0%;
+} 
+.search .typeSearchBox ul li.cid17 {
+	background:url(../img/common/typeIcon/c17IconF.png) no-repeat 50% 0%;
+} 
+.search .typeSearchBox ul li.cid18 {
+	background:url(../img/common/typeIcon/c18IconF.png) no-repeat 50% 0%;
+} 
+.search .typeSearchBox ul li.cid19 {
+	background:url(../img/common/typeIcon/c19IconF.png) no-repeat 50% 0%;
+} 
+.search .typeSearchBox ul li.cid20 {
+	background:url(../img/common/typeIcon/c20IconF.png) no-repeat 50% 0%;
+} 
+.search .typeSearchBox ul li.cid21 {
+	background:url(../img/common/typeIcon/c21IconF.png) no-repeat 50% 0%;
+} 
+.search .typeSearchBox ul li.cid22 {
+	background:url(../img/common/typeIcon/c22IconF.png) no-repeat 50% 0%;
+} 
+.search .typeSearchBox ul li.cid23 {
+	background:url(../img/common/typeIcon/c23IconF.png) no-repeat 50% 0%;
+} 
+.search .typeSearchBox ul li.cid24 {
+	background:url(../img/common/typeIcon/c24IconF.png) no-repeat 50% 0%;
+} 
+.search .typeSearchBox ul li.cid25 {
+	background:url(../img/common/typeIcon/c25IconF.png) no-repeat 50% 0%;
+} 
+
+.search .typeSearchBox .allCheck {
+	font-size:12px;
+	line-height:38px;
+	text-align:right;
+}
+.search .typeSearchBox .allCheck input {
+	margin:0 5px;
+}
+
+.search .resultList {
+	padding:18px;
+	margin-bottom:10px;
+}
+.search .resultList ul li {
+	background:url(../img/common/bg/line01.png) repeat-x bottom;
+	padding:4px 0 6px;
+	margin-bottom:6px;
+	clear:both;
+}
+.search .resultList ul li .titleBox h4.cid1 {
+	background:url(../img/common/typeIcon/c1IconM.png) no-repeat right top;
+} 
+.search .resultList ul li .titleBox h4.cid2 {
+	background:url(../img/common/typeIcon/c2IconM.png) no-repeat right top;
+} 
+.search .resultList ul li .titleBox h4.cid3 {
+	background:url(../img/common/typeIcon/c3IconM.png) no-repeat right top;
+} 
+.search .resultList ul li .titleBox h4.cid4 {
+	background:url(../img/common/typeIcon/c4IconM.png) no-repeat right top;
+} 
+.search .resultList ul li .titleBox h4.cid5 {
+	background:url(../img/common/typeIcon/c5IconM.png) no-repeat right top;
+} 
+.search .resultList ul li .titleBox h4.cid6 {
+	background:url(../img/common/typeIcon/c6IconM.png) no-repeat right top;
+} 
+.search .resultList ul li .titleBox h4.cid7 {
+	background:url(../img/common/typeIcon/c7IconM.png) no-repeat right top;
+} 
+.search .resultList ul li .titleBox h4.cid8 {
+	background:url(../img/common/typeIcon/c8IconM.png) no-repeat right top;
+} 
+.search .resultList ul li .titleBox h4.cid9 {
+	background:url(../img/common/typeIcon/c9IconM.png) no-repeat right top;
+} 
+.search .resultList ul li .titleBox h4.cid10 {
+	background:url(../img/common/typeIcon/c10IconM.png) no-repeat right top;
+} 
+.search .resultList ul li .titleBox h4.cid11 {
+	background:url(../img/common/typeIcon/c11IconM.png) no-repeat right top;
+} 
+.search .resultList ul li .titleBox h4.cid12 {
+	background:url(../img/common/typeIcon/c12IconM.png) no-repeat right top;
+} 
+.search .resultList ul li .titleBox h4.cid13 {
+	background:url(../img/common/typeIcon/c13IconM.png) no-repeat right top;
+} 
+.search .resultList ul li .titleBox h4.cid14 {
+	background:url(../img/common/typeIcon/c14IconM.png) no-repeat right top;
+} 
+.search .resultList ul li .titleBox h4.cid15 {
+	background:url(../img/common/typeIcon/c15IconM.png) no-repeat right top;
+} 
+.search .resultList ul li .titleBox h4.cid16 {
+	background:url(../img/common/typeIcon/c16IconM.png) no-repeat right top;
+} 
+.search .resultList ul li .titleBox h4.cid17 {
+	background:url(../img/common/typeIcon/c17IconM.png) no-repeat right top;
+} 
+.search .resultList ul li .titleBox h4.cid18 {
+	background:url(../img/common/typeIcon/c18IconM.png) no-repeat right top;
+} 
+.search .resultList ul li .titleBox h4.cid19 {
+	background:url(../img/common/typeIcon/c19IconM.png) no-repeat right top;
+} 
+.search .resultList ul li .titleBox h4.cid20 {
+	background:url(../img/common/typeIcon/c20IconM.png) no-repeat right top;
+} 
+.search .resultList ul li .titleBox h4.cid21 {
+	background:url(../img/common/typeIcon/c21IconM.png) no-repeat right top;
+} 
+.search .resultList ul li .titleBox h4.cid22 {
+	background:url(../img/common/typeIcon/c22IconM.png) no-repeat right top;
+} 
+.search .resultList ul li .titleBox h4.cid23 {
+	background:url(../img/common/typeIcon/c23IconM.png) no-repeat right top;
+} 
+.search .resultList ul li .titleBox h4.cid24 {
+	background:url(../img/common/typeIcon/c24IconM.png) no-repeat right top;
+} 
+.search .resultList ul li .titleBox h4.cid25 {
+	background:url(../img/common/typeIcon/c25IconM.png) no-repeat right top;
+} 
+
+.search .resultList ul li .titleBox {
+	padding-top:6px;
+	padding-bottom:10px;
+}
+.search .resultList ul li .new {
+	background:url(../img/common/listIcon/newIcon.png) no-repeat left top;
+	padding-left:30px;
+}
+.search .resultList ul li .titleBox .date {
+	font-size:10px;
+	line-height:12px;
+	color:#FFB200;
+}
+.search .resultList ul li .titleBox h4 {
+	font-size:16px;
+	line-height:20px;
+	padding:2px 0;
+}
+
+.search .resultList ul li dl {
+	font-size:12px;
+	line-height:20px;
+	text-align:left;
+	color:#444444;
+	background:#F5F5F5;
+	padding:7px;
+	clear:both;
+	margin-bottom:5px;
+	overflow:hidden;
+	zoom:1;
+}
+.search .resultList ul li dl dt {
+	width:66px;
+	float:left;
+}
+.search .resultList ul li dl dd {
+	width:836px;
+	float:right;
+}
+.search .resultList ul li .btn {
+	width:325px;
+	float:right;
+}
+.search .resultList ul li .btn p {
+	width:110px;
+	height:18px;
+	float:left;
+}
+.search .resultList ul li .btn p.more {
+	width:100px;
+}
+.search .resultList ul li .btn p a {
+	height:18px;
+	display:block;
+}
+.search .resultList ul li .btn p.newWin {
+	background:url(../img/search/newWinBtn-on.png) no-repeat 5px 0;
+	padding:0 10px 0 5px;
+}
+.search .resultList ul li .btn p.newWin a {
+	width:110px;
+	background:url(../img/search/newWinBtn.png) no-repeat;
+	text-indent:-3000px;
+}
+.search .resultList ul li .btn p.newWin a:hover {
+	background:url(../img/search/newWinBtn-on.png) no-repeat;
+}
+.search .resultList ul li .btn p.sameWin {
+	width:100px;
+	background:url(../img/search/sameWinBtn-on.png) no-repeat right;
+}
+.search .resultList ul li .btn p.sameWin a {
+	width:100px;
+	background:url(../img/search/sameWinBtn.png) no-repeat;
+	text-indent:-3000px;
+}
+.search .resultList ul li .btn p.sameWin a:hover {
+	background:url(../img/search/sameWinBtn-on.png) no-repeat;
+}
+
+
+.search .resultList .pageNavi {
+	font-size:12px;
+	line-height:20px;
+	text-align:center;
+	font-weight:bold;
+	background:#FFCC33;
+}
+.search .resultList .pageNavi ul li {
+	display:inline;
+	margin:0px 5px;
+	background:none;
+	padding:0;
+}
+.search .resultList .pageNavi ul li.first a ,
+.search .resultList .pageNavi ul li.last a {
+	color:#F60;
+	margin:0 10px;
+	font-weight:bold;
+}
+.search .resultList .pageNavi ul li.next a ,
+.search .resultList .pageNavi ul li.back a {
+	font-size:12px;
+	color:#fff;
+	font-weight:bold;
+	margin:0 10px;
+}
+.search .resultList .pageNavi a {
+	text-decoration:none;
+	font-weight:normal;
+}
+.search .resultList .pageNavi span a {
+	color:#666;
+}
+
+/*--------------
+faq
+--------------*/
+
+.faq .contentsInner {
+	padding:18px;
+	margin-bottom:10px;
+}
+.faq dl {
+	background:url(../img/common/bg/line01.png) repeat-x bottom;
+	padding:0px 0 11px;
+	margin-bottom:10px;
+}
+.faq dl dt {
+	font-size:12px;
+	line-height:16px;
+	color
+	font-weight:bold;
+	background:url(../img/faq/qIcon.png) no-repeat left top;
+	padding:6px 0 6px 34px;
+	margin-bottom:5px;
+}
+.faq dl dd {
+	line-height:16px;
+	background:url(../img/faq/aIcon.png) no-repeat 30px 0px;
+	padding:6px 0 6px 64px;
+}
+.faq dl dd ol {
+	margin-top:10px;
+}
+.faq dl dd ol li {
+	list-style:outside decimal;
+	margin-left:30px;
+	color:#FF9900;
+	font-weight:bold;
+	margin-bottom:6px;
+	overflow:visible;
+	zoom:normal;
+}
+.faq dl dd ol li p {
+	color:#333;
+	font-weight:normal;
+}
+
+
+
+
+/*--------------
+guide
+--------------*/
+
+.guide .contentsInner {
+	padding:18px;
+	margin-bottom:10px;
+}
+.guide ol {
+	margin-bottom:20px;
+}
+.guide ol li {
+	list-style:outside decimal;
+	margin-left:30px;
+	color:#FF9900;
+	font-weight:bold;
+	margin-bottom:6px;
+	overflow:visible;
+	zoom:normal;
+}
+.guide ol li p {
+	color:#333;
+	font-weight:normal;
+}
+.guide ol li p span {
+	font-size:10px;
+}
+
+/*--------------
+disclaimer
+--------------*/
+
+.disclaimer .contentsInner {
+	padding:18px;
+	margin-bottom:10px;
+}
+.disclaimer ol {
+	margin-top:10px;
+}
+.disclaimer ol li {
+	list-style:outside decimal;
+	margin-left:30px;
+	margin-bottom:10px;
+	overflow:visible;
+	zoom:normal;
+}
+
+/*--------------
+privacy
+--------------*/
+
+.privacy .contentsInner {
+	padding:18px;
+	margin-bottom:10px;
+}
+.privacy ol {
+	margin-top:10px;
+	overflow:hidden;
+	zoom:1;
+}
+.privacy ol li {
+	list-style:outside decimal;
+	margin-left:30px;
+	margin-bottom:10px;
+	overflow:visible;
+	zoom:normal;
+}
+.privacy ol li span {
+	font-weight:bold;
+	padding-bottom:5px;
+	display:block;
+}
+
+/*--------------
+agreement
+--------------*/
+
+.agreement .contentsInner {
+	padding:18px;
+	margin-bottom:10px;
+}
+.agreement dl {
+	padding-bottom:10px;
+}
+.agreement dl dt {
+	font-weight:bold;
+}
+.agreement dl dd {
+	padding:5px 10px 10px 10px;
+}
+.agreement ol {
+}
+.agreement ol li {
+	list-style:outside decimal;
+	margin-left:30px;
+	margin-bottom:10px;
+	overflow:visible;
+	zoom:normal;
+}
+.agreement ol li ul li {
+	list-style:outside disc;
+}
+.agreement ol li ul {
+	padding:5px 0 0 0;
+}
+.agreement p {
+	padding-bottom:10px;
+}
+.agreement .meta {
+	font-size:10px;
+	text-align:right;
+}
+
+/*--------------
+owner
+--------------*/
+
+.owner .contentsInner {
+	padding:18px;
+	margin-bottom:10px;
+}
+
+/*--------------
+companyDetail
+--------------*/
+
+.companyDetail .contentsInner {
+	padding:18px;
+	margin-bottom:10px;
+}
+.companyDetail .titleBox {
+	border-bottom:2px solid #DCDCDC;
+	padding-bottom:5px;
+	overflow:hidden;
+	zoom:1;
+}
+.companyDetail .titleBox .num {
+	width:48px;
+	height:28px;
+	font-size:14px;
+	line-height:28px;
+	font-weight:bold;
+	text-align:center;
+	padding-top:16px;
+	float:left;
+	border:1px solid #DCDCDC;
+	background:url(../img/company/number.png) no-repeat top;
+}
+body#content .companyDetail #contentsLeft .companyName {
+	width:620px;
+	font-size:16px;
+	line-height:22px;
+	font-weight:bold;
+	float:right;
+	padding:12px 0;
+}
+#content .companyDetail #contentsLeft .companyName span {
+	font-size:12px;
+	margin-right:10px;
+}
+
+.companyDetail dl {
+	background:url(../img/common/bg/line01.png) repeat-x bottom;
+	padding:10px 0 11px;
+	clear:both;
+}
+.companyDetail dl dt {
+	width:72px;
+	float:left;
+}
+.companyDetail dl dd {
+	width:608px;
+	float:right;
+}
+
+.companyDetail .leftBox {
+	width:340px;
+	float:left;
+}
+.companyDetail .rightBox {
+	width:340px;
+	float:right;
+}
+
+.companyDetail .rightBox dl dd ,
+.companyDetail .leftBox dl dd {
+	width:258px;
+}
+.companyDetail ul {
+	text-align:center;
+	padding:15px 0;
+	clear:both;
+}
+.companyDetail ul li {
+	display:inline;
+	margin:0 10px;
+}
+
+.companyDetail ul li img {
+	padding:1px;
+	border:1px solid #DCDCDC;
+	margin-bottom:2px;
+}
+
+
+/*--------------
+link
+--------------*/
+
+.link .contentsInner {
+	padding:18px;
+	margin-bottom:10px;
+}
+.link .contentsInner .text {
+	padding-bottom:15px;
+}
+.link .contentsInner dl {
+	background:url(../img/common/bg/line01.png) repeat-x bottom;
+	padding:0px 0 11px;
+	margin-bottom:10px;
+	clear:both;
+}
+.link .contentsInner dl dt {
+	font-weight:bold;
+	padding-bottom:10px;
+}
+.link .contentsInner dl dd .linkBox {
+	border:1px solid #eee;
+	display:block;
+	padding:10px;
+	margin:10px auto;
+}
+.link .contentsInner dl dd span {
+	font-size:10px;
+}
+.link .contentsInner ul li {
+	padding:5px 0;
+	background:url(../img/common/bg/line01.png) repeat-x bottom;
+}
+.link .contentsInner ul li a {
+	display:block;
+}
+
+/*--------------
+recruit
+--------------*/
+#content .recruit .contentsInner {
+	padding:18px;
+	margin-bottom:10px;
+}
+#content .recruit .formBoxW .error {
+	line-height:20px;
+	color:#900;
+	font-weight:bold;
+}
+#content .recruit .formBoxW .text {
+}
+#content .recruit .formBoxW .text p {
+	padding-bottom:12px;
+}
+
+#content .recruit .formBoxW dl {
+	background:url(../img/common/bg/line01.png) repeat-x bottom;
+	clear:both;
+	padding:10px 0;
+}
+#content .recruit .formBoxW dl dt {
+	width:120px;
+	color:#FF9900;
+	font-weight:bold;
+	float:left;
+	padding-left:5px;
+}
+#content .recruit .formBoxW dl dt span {
+	font-size:9px;
+	color:#333;
+	font-weight:normal;
+}
+#content .recruit .formBoxW dl dd {
+	width:785px;
+	float:right;
+}
+#content .recruit .formBoxW dl dd select {
+	font-size:12px;
+	white-space:0;
+	letter-spacing:0;
+}
+#content .recruit .formBoxW dl dd span {
+	font-size:10px;
+}
+#content .recruit .formBoxW dl dt p ,
+#content .recruit .formBoxW dl dd p {
+	padding-bottom:8px;
+}
+#content .recruit .formBoxW .leftBox {
+	width:455px;
+	float:left;
+}
+#content .recruit .formBoxW .rightBox {
+	width:455px;
+	float:right;
+}
+#content .recruit .formBoxW .leftBox dl dd ,
+#content .recruit .formBoxW .rightBox dl dd {
+	width:320px;
+}
+
+#content .recruit .formBoxW .btn {
+	text-align:center;
+	padding:20px 0 10px 0;
+}
+
+
+#content .recruit .catch {
+	height:77px;
+	padding-bottom:10px;
+}
+#content .recruit .text {
+	font-size:14px;
+	line-height:20px;
+	padding-bottom:30px;
+}
+#content .recruit .text .point {
+	font-size:20px;
+	line-height:29px;
+	font-weight:bold;
+	color:#FF9900;
+}
+#content .recruit .detailContent {
+	height:290px;
+	font-size:14px;
+	line-height:18px;
+	background:url(../img/recruit/bg.png) no-repeat top;
+	padding:70px 0 15px 45px;
+}
+#content .recruit .detailContent dl {
+	padding-bottom:15px
+}
+#content .recruit .detailContent dl dt {
+	font-size:12px;
+	font-weight:bold;
+	padding-bottom:4px;
+	color:#666;
+}
+#content .recruit .detailContent dl dd span {
+	font-size:16px;
+	font-weight:bold;
+	color:#FF9900;
+}
+#content .recruit .detailContent dl dd ol li {
+	list-style:outside decimal;
+	margin-left:30px;
+	overflow:visible;
+	zoom:normal;
+}
+
+/*--------------
+sitemap
+--------------*/
+.sitemapBox ul {
+	padding:15px 15px 5px 15px;
+}
+.sitemapBox ul li {
+	font-size:10px;
+	padding:15px;
+	border:1px solid #ccc;
+	margin-bottom:10px;
+}
+.sitemapBox ul li span ,
+.sitemapBox ul li a {
+	font-size:12px;
+	color:#F60;
+	font-weight:bold;
+	margin-right:15px;
+}
+.sitemapBox ul li p {
+	padding-top:5px;
+}
+.sitemapBox ul li p a {
+	font-weight:normal;
+	color:#666;
+	background:url(../img/common/icon.png) no-repeat 0% 50%;
+	display:block;
+	padding-left:20px;
+}
+
+
+
+/* 2011.10.17～ add // yamashita
+---------------------------------*/
+body,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,form,p,table,th,td,input,textarea,select { margin:0px; padding:0px; }
+h1,h2,h3,h4,h5,h6,pre,code,address,caption,cite,code,em,th { font-size: 1em; font-weight: normal; font-style: normal; }
+img { margin:0; padding:0; border:0; }
+ul,dl{ list-style-type:none; }
+input {font-size: 100%;}
+textarea {font-size:1em;font-family:"verdana","MS PGothic","Osaka",Arial,sans-serif;}
+table { border-collapse:collapse; border-spacing:0; }
+br.clear {clear:both; font:0pt/0pt sans-serif}
+.clearfix:after { content:"."; display:block; visibility:hidden; height:0.1px; font-size:0.1em; line-height:0; clear:both; }
+.clearfix { display:inline-block; }
+/* Hides from IE-mac \*/
+* html .clearfix { height:1%; }
+.clearfix { display:block; }
+
+/* top wc information */
+#index .wc-info { width:700px; background:#f6f6f6; margin-left:13px; }
+#index .wc-info ul { font-size:0px; line-height:0px; margin:0; padding:0; }
+#index .wc-info ul li { position:relative; height:95px; border-bottom:2px solid #fff; }
+#index .wc-info ul .pic { width:100px; text-align:right; }
+#index .wc-info ul li p { position:absolute; top:12px; right:0px; width:590px; font-size:14px; line-height:24px; }
+#index .wc-info ul li p strong { color:#339900; font-weight:600;}
+
+/* random ad list */
+.random-ad-list { padding:5px 0 15px 0; }
+.random-ad-list ul { width:730px; display:inline-block; line-height:16px; font-size:12px; }
+.random-ad-list ul li { float:left; text-align:center; width:146px; }
+.random-ad-list ul li a,
+.random-ad-list ul li a:hover { color:#000; text-decoration:underline; }
+
+/* banner */
+.bnr-mixi { margin-bottom:6px; }
+.bnr-mixi a img { border:5px solid #e0c074; }
+.bnr-mixi a img:hover { border:5px solid #ff9900; }
+.bnr-facebook { margin-bottom:10px; }
+.bnr-facebook a img { border:5px solid #C4CDE0; }
+.bnr-facebook a img:hover { border:5px solid #718CC6; }
+.bnr-ad { margin-bottom:5px; }
+.bnr-ad a img { border:5px solid #c2c2c2; }
+.bnr-ad a img:hover { border:5px solid #ff9900; }
+
+/* index maintenance notice */
+#index-notice { background:#fff; border:1px solid #d4d4d4; width:708px; padding:10px; margin-top:15px; clear:both; }
+#index-notice .title { border-bottom:1px solid #e9e9e9; margin-bottom:5px; }
+#index-notice p { padding:0; margin:0; font-size:12px; color:#333; line-height:18px; }
+
+/* maintenance page */
+#maintenance { width:800px; margin:0 auto; padding-top:40px; font-size:12px; color:#000; line-height:18px; }
+#maintenance .title { margin-bottom:20px; }
+#maintenance ul { list-style:none; margin:0; padding:0 0 40px 0; font-family:"verdana","Lucida Grande","Hiragino Kaku Gothic Pro","ＭＳ Ｐゴシック","Arial","Lucida Sans Unicode","sans-serif"; border-bottom:1px solid #999; }
+#maintenance ul li { padding-bottom:30px; }
+#maintenance ul strong { font-weight:600; color:#f30; font-size:16px; }
+#maintenance ul span { font-weight:600; }
+#maintenance .copyright { text-align:center; margin:0; padding:40px 0 0 0;}
+
+/* ■■■2012/02/07　Twitter Nag */
+
+#twitter {
+ float:right;
+ padding-left:10px;
+ position:relative;
+ z-index:0;
+}
+
